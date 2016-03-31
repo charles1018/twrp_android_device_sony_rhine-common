@@ -79,6 +79,7 @@ WIFI_DRIVER_FW_PATH_AP           := "ap"
 # Filesystem
 BOARD_FLASH_BLOCK_SIZE := 131072
 TARGET_USERIMAGES_USE_EXT4 := true
+TARGET_USERIMAGES_USE_F2FS := true
 
 # Releasetools
 TARGET_RELEASETOOLS_EXTENSIONS := device/sony/rhine-common
